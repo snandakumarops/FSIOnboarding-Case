@@ -16,6 +16,10 @@ public class Customer implements java.io.Serializable {
 	private Integer size;
 	private java.lang.String industryType;
 
+	private java.lang.Double totalAssets;
+
+	private java.lang.String registeredCountry;
+
 	public Customer() {
 	}
 
@@ -82,10 +86,27 @@ public class Customer implements java.io.Serializable {
 		this.size = size;
 	}
 
+	public java.lang.Double getTotalAssets() {
+		return this.totalAssets;
+	}
+
+	public void setTotalAssets(java.lang.Double totalAssets) {
+		this.totalAssets = totalAssets;
+	}
+
+	public java.lang.String getRegisteredCountry() {
+		return this.registeredCountry;
+	}
+
+	public void setRegisteredCountry(java.lang.String registeredCountry) {
+		this.registeredCountry = registeredCountry;
+	}
+
 	public Customer(java.lang.String institutionName,
 			java.lang.String officerName, java.lang.String institutionAddress,
 			java.lang.String entityTypes, java.lang.String charitableStatus,
-			java.lang.Integer size, java.lang.String industryType) {
+			java.lang.Integer size, java.lang.String industryType,
+			java.lang.Double totalAssets, java.lang.String registeredCountry) {
 		this.institutionName = institutionName;
 		this.officerName = officerName;
 		this.institutionAddress = institutionAddress;
@@ -93,6 +114,8 @@ public class Customer implements java.io.Serializable {
 		this.charitableStatus = charitableStatus;
 		this.size = size;
 		this.industryType = industryType;
+		this.totalAssets = totalAssets;
+		this.registeredCountry = registeredCountry;
 	}
 
 }
