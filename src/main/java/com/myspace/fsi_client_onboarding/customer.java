@@ -13,7 +13,7 @@ public class customer implements java.io.Serializable {
 	private java.lang.String institutionAddress;
 	private java.lang.String entityTypes;
 	private java.lang.String charitableStatus;
-	private java.lang.String size;
+	private Integer size;
 	private java.lang.String industryType;
 
 	public customer() {
@@ -59,14 +59,6 @@ public class customer implements java.io.Serializable {
 		this.charitableStatus = charitableStatus;
 	}
 
-	public java.lang.String getSize() {
-		return this.size;
-	}
-
-	public void setSize(java.lang.String size) {
-		this.size = size;
-	}
-
 	public java.lang.String getIndustryType() {
 		return this.industryType;
 	}
@@ -75,10 +67,25 @@ public class customer implements java.io.Serializable {
 		this.industryType = industryType;
 	}
 
+	public String toString() {
+		return this.institutionName + "::" + this.officerName + "::"
+				+ this.institutionAddress + "::" + this.entityTypes + "::"
+				+ this.charitableStatus + "::" + this.size + "::"
+				+ this.industryType;
+	}
+
+	public java.lang.Integer getSize() {
+		return this.size;
+	}
+
+	public void setSize(java.lang.Integer size) {
+		this.size = size;
+	}
+
 	public customer(java.lang.String institutionName,
 			java.lang.String officerName, java.lang.String institutionAddress,
 			java.lang.String entityTypes, java.lang.String charitableStatus,
-			java.lang.String size, java.lang.String industryType) {
+			java.lang.Integer size, java.lang.String industryType) {
 		this.institutionName = institutionName;
 		this.officerName = officerName;
 		this.institutionAddress = institutionAddress;
@@ -86,16 +93,6 @@ public class customer implements java.io.Serializable {
 		this.charitableStatus = charitableStatus;
 		this.size = size;
 		this.industryType = industryType;
-	}
-	
-	public String toString() {
-	    return this.institutionName + "::" +
-	    this.officerName + "::" +
-	    this.institutionAddress + "::" +
-	    this.entityTypes + "::" +
-	    this.charitableStatus + "::" +
-	    this.size + "::" +
-	    this.industryType;
 	}
 
 }
