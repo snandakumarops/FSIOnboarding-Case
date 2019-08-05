@@ -6,12 +6,86 @@ package com.myspace.fsi_client_onboarding;
 
 public class customer implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public customer() {
-    }
+	private java.lang.String institutionName;
+	private java.lang.String officerName;
+	private java.lang.String institutionAddress;
+	private java.lang.String entityTypes;
+	private java.lang.String charitableStatus;
+	private java.lang.String size;
+	private java.lang.String industryType;
 
+	public customer() {
+	}
 
+	public java.lang.String getInstitutionName() {
+		return this.institutionName;
+	}
 
+	public void setInstitutionName(java.lang.String institutionName) {
+		this.institutionName = institutionName;
+	}
+
+	public java.lang.String getOfficerName() {
+		return this.officerName;
+	}
+
+	public void setOfficerName(java.lang.String officerName) {
+		this.officerName = officerName;
+	}
+
+	public java.lang.String getInstitutionAddress() {
+		return this.institutionAddress;
+	}
+
+	public void setInstitutionAddress(java.lang.String institutionAddress) {
+		this.institutionAddress = institutionAddress;
+	}
+
+	public java.lang.String getEntityTypes() {
+		return this.entityTypes;
+	}
+
+	public void setEntityTypes(java.lang.String entityTypes) {
+		this.entityTypes = entityTypes;
+	}
+
+	public java.lang.String getCharitableStatus() {
+		return this.charitableStatus;
+	}
+
+	public void setCharitableStatus(java.lang.String charitableStatus) {
+		this.charitableStatus = charitableStatus;
+	}
+
+	public java.lang.String getSize() {
+		return this.size;
+	}
+
+	public void setSize(java.lang.String size) {
+		this.size = size;
+	}
+
+	public java.lang.String getIndustryType() {
+		return this.industryType;
+	}
+
+	public void setIndustryType(java.lang.String industryType) {
+		this.industryType = industryType;
+	}
+
+	public customer(java.lang.String institutionName,
+			java.lang.String officerName, java.lang.String institutionAddress,
+			java.lang.String entityTypes, java.lang.String charitableStatus,
+			java.lang.String size, java.lang.String industryType) {
+		this.institutionName = institutionName;
+		this.officerName = officerName;
+		this.institutionAddress = institutionAddress;
+		this.entityTypes = entityTypes;
+		this.charitableStatus = charitableStatus;
+		this.size = size;
+		this.industryType = industryType;
+	}
 
 }
