@@ -87,5 +87,15 @@ public class customer implements java.io.Serializable {
 		this.size = size;
 		this.industryType = industryType;
 	}
+	
+	public String toString() {
+	    return this.institutionName + "::" +
+	    this.officerName + "::" +
+	    this.institutionAddress + "::" +
+	    this.entityTypes + "::" +
+	    this.charitableStatus + "::" +
+	    this.size + "::" +
+	    this.industryType;
+	}
 
 }
