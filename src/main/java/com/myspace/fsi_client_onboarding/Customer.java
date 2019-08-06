@@ -157,6 +157,7 @@ public class Customer implements java.io.Serializable {
 	}
 	
 	public void addDoc(String doc) {
+	    this.documentsRequired.add(doc);
 	    
 	}
 
