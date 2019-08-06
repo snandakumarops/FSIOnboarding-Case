@@ -18,16 +18,16 @@ public class Customer implements java.io.Serializable {
 
 	private java.lang.Double totalAssets;
 
-	private java.lang.String registeredCountry;
-
 	private java.lang.String riskRating;
 
 	private java.util.List<java.lang.String> documentsRequired;
 
 	private java.lang.String docName;
 
+	private java.lang.String registrationCountry;
+
 	public Customer() {
-	    this.documentsRequired = new java.util.ArrayList();
+		this.documentsRequired = new java.util.ArrayList();
 	}
 
 	public java.lang.String getInstitutionName() {
@@ -101,14 +101,6 @@ public class Customer implements java.io.Serializable {
 		this.totalAssets = totalAssets;
 	}
 
-	public java.lang.String getRegisteredCountry() {
-		return this.registeredCountry;
-	}
-
-	public void setRegisteredCountry(java.lang.String registeredCountry) {
-		this.registeredCountry = registeredCountry;
-	}
-
 	public java.lang.String getRiskRating() {
 		return this.riskRating;
 	}
@@ -134,14 +126,26 @@ public class Customer implements java.io.Serializable {
 		this.docName = docName;
 	}
 
+	public void addDoc(String doc) {
+		this.documentsRequired.add(doc);
+
+	}
+
+	public java.lang.String getRegistrationCountry() {
+		return this.registrationCountry;
+	}
+
+	public void setRegistrationCountry(java.lang.String registrationCountry) {
+		this.registrationCountry = registrationCountry;
+	}
+
 	public Customer(java.lang.String institutionName,
 			java.lang.String officerName, java.lang.String institutionAddress,
 			java.lang.String entityTypes, java.lang.String charitableStatus,
 			java.lang.Integer size, java.lang.String industryType,
-			java.lang.Double totalAssets, java.lang.String registeredCountry,
-			java.lang.String riskRating,
+			java.lang.Double totalAssets, java.lang.String riskRating,
 			java.util.List<java.lang.String> documentsRequired,
-			java.lang.String docName) {
+			java.lang.String docName, java.lang.String registrationCountry) {
 		this.institutionName = institutionName;
 		this.officerName = officerName;
 		this.institutionAddress = institutionAddress;
@@ -150,15 +154,10 @@ public class Customer implements java.io.Serializable {
 		this.size = size;
 		this.industryType = industryType;
 		this.totalAssets = totalAssets;
-		this.registeredCountry = registeredCountry;
 		this.riskRating = riskRating;
 		this.documentsRequired = documentsRequired;
 		this.docName = docName;
-	}
-	
-	public void addDoc(String doc) {
-	    this.documentsRequired.add(doc);
-	    
+		this.registrationCountry = registrationCountry;
 	}
 
 }
