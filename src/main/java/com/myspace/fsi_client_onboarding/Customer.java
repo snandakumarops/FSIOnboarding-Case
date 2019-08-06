@@ -24,7 +24,10 @@ public class Customer implements java.io.Serializable {
 
 	private java.util.List<java.lang.String> documentsRequired;
 
+	private java.lang.String docName;
+
 	public Customer() {
+	    this.documentsRequired = new java.util.ArrayList();
 	}
 
 	public java.lang.String getInstitutionName() {
@@ -123,13 +126,22 @@ public class Customer implements java.io.Serializable {
 		this.documentsRequired = documentsRequired;
 	}
 
+	public java.lang.String getDocName() {
+		return this.docName;
+	}
+
+	public void setDocName(java.lang.String docName) {
+		this.docName = docName;
+	}
+
 	public Customer(java.lang.String institutionName,
 			java.lang.String officerName, java.lang.String institutionAddress,
 			java.lang.String entityTypes, java.lang.String charitableStatus,
 			java.lang.Integer size, java.lang.String industryType,
 			java.lang.Double totalAssets, java.lang.String registeredCountry,
 			java.lang.String riskRating,
-			java.util.List<java.lang.String> documentsRequired) {
+			java.util.List<java.lang.String> documentsRequired,
+			java.lang.String docName) {
 		this.institutionName = institutionName;
 		this.officerName = officerName;
 		this.institutionAddress = institutionAddress;
@@ -141,6 +153,11 @@ public class Customer implements java.io.Serializable {
 		this.registeredCountry = registeredCountry;
 		this.riskRating = riskRating;
 		this.documentsRequired = documentsRequired;
+		this.docName = docName;
+	}
+	
+	public void addDoc(String doc) {
+	    
 	}
 
 }
