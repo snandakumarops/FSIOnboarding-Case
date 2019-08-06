@@ -22,6 +22,8 @@ public class Customer implements java.io.Serializable {
 
 	private java.lang.String riskRating;
 
+	private java.util.List<java.lang.String> documentsRequired;
+
 	public Customer() {
 	}
 
@@ -112,12 +114,22 @@ public class Customer implements java.io.Serializable {
 		this.riskRating = riskRating;
 	}
 
+	public java.util.List<java.lang.String> getDocumentsRequired() {
+		return this.documentsRequired;
+	}
+
+	public void setDocumentsRequired(
+			java.util.List<java.lang.String> documentsRequired) {
+		this.documentsRequired = documentsRequired;
+	}
+
 	public Customer(java.lang.String institutionName,
 			java.lang.String officerName, java.lang.String institutionAddress,
 			java.lang.String entityTypes, java.lang.String charitableStatus,
 			java.lang.Integer size, java.lang.String industryType,
 			java.lang.Double totalAssets, java.lang.String registeredCountry,
-			java.lang.String riskRating) {
+			java.lang.String riskRating,
+			java.util.List<java.lang.String> documentsRequired) {
 		this.institutionName = institutionName;
 		this.officerName = officerName;
 		this.institutionAddress = institutionAddress;
@@ -128,6 +140,7 @@ public class Customer implements java.io.Serializable {
 		this.totalAssets = totalAssets;
 		this.registeredCountry = registeredCountry;
 		this.riskRating = riskRating;
+		this.documentsRequired = documentsRequired;
 	}
 
 }
