@@ -9,7 +9,20 @@
     <width>150</width>
   </descriptionCol>
   <metadataCols/>
-  <attributeCols/>
+  <attributeCols>
+    <attribute-column52>
+      <typedDefaultValue>
+        <valueString>document-checklist</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </typedDefaultValue>
+      <hideColumn>true</hideColumn>
+      <width>100</width>
+      <attribute>ruleflow-group</attribute>
+      <reverseOrder>false</reverseOrder>
+      <useRowNumber>false</useRowNumber>
+    </attribute-column52>
+  </attributeCols>
   <conditionPatterns>
     <Pattern52>
       <factType>Customer</factType>
@@ -107,7 +120,6 @@
           <header>Country</header>
           <constraintValueType>1</constraintValueType>
           <factField>registeredCountry</factField>
-          <fieldType>String</fieldType>
           <operator>in</operator>
           <parameters/>
           <binding></binding>
@@ -201,6 +213,11 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueString>document-checklist</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
         <valueString>Sole Proprietorship</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -251,6 +268,11 @@
       </value>
       <value>
         <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>document-checklist</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -309,6 +331,11 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueString>document-checklist</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
         <valueString>General Patnership,Limited Liability Company,Limited Partneship,S-corporation</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -359,6 +386,11 @@
       </value>
       <value>
         <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>document-checklist</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -417,6 +449,11 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueString>document-checklist</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
         <valueString>General Patnership,Limited Liability Company,Limited Partneship</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -467,6 +504,11 @@
       </value>
       <value>
         <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>document-checklist</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -525,6 +567,11 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueString>document-checklist</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
         <valueString>C-corporation</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -579,6 +626,11 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueString>document-checklist</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
         <valueString>C-corporation</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -629,6 +681,11 @@
       </value>
       <value>
         <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>document-checklist</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -688,6 +745,11 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueString>document-checklist</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
         <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -742,6 +804,11 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueString>document-checklist</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
         <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -792,6 +859,11 @@
       </value>
       <value>
         <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>document-checklist</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
