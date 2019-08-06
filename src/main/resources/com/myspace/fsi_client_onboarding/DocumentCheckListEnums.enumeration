@@ -1,2 +1,3 @@
 'Customer.entityTypes' : ['Sole Proprietorship','General Patnership','Limited Partneship','Limited Liability Company','C-corporation','S-corporation']
 'Customer.industryType' : ['Retail','Agriculture','Transport And Communications','Construction','Utility','Others']
+'Customer.charitableStatus' : ['No','Yes']
