@@ -82,7 +82,8 @@ public class Customer implements java.io.Serializable {
 		return this.institutionName + "::" + this.officerName + "::"
 				+ this.institutionAddress + "::" + this.entityTypes + "::"
 				+ this.charitableStatus + "::" + this.size + "::"
-				+ this.industryType;
+				+ this.industryType +
+				this.documentsRequired;
 	}
 
 	public java.lang.Integer getSize() {
