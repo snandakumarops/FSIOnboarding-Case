@@ -64,6 +64,54 @@
           <parameters/>
           <binding></binding>
         </condition-column52>
+        <condition-column52>
+          <typedDefaultValue>
+            <valueString></valueString>
+            <dataType>STRING</dataType>
+            <isOtherwise>false</isOtherwise>
+          </typedDefaultValue>
+          <hideColumn>false</hideColumn>
+          <width>100</width>
+          <header>Risk Rating</header>
+          <constraintValueType>1</constraintValueType>
+          <factField>riskRating</factField>
+          <fieldType>String</fieldType>
+          <operator>in</operator>
+          <parameters/>
+          <binding></binding>
+        </condition-column52>
+        <condition-column52>
+          <typedDefaultValue>
+            <valueString></valueString>
+            <dataType>NUMERIC_INTEGER</dataType>
+            <isOtherwise>false</isOtherwise>
+          </typedDefaultValue>
+          <hideColumn>false</hideColumn>
+          <width>100</width>
+          <header>Size &lt; than</header>
+          <constraintValueType>1</constraintValueType>
+          <factField>size</factField>
+          <fieldType>Integer</fieldType>
+          <operator>&lt;</operator>
+          <parameters/>
+          <binding></binding>
+        </condition-column52>
+        <condition-column52>
+          <typedDefaultValue>
+            <valueString></valueString>
+            <dataType>STRING</dataType>
+            <isOtherwise>false</isOtherwise>
+          </typedDefaultValue>
+          <hideColumn>false</hideColumn>
+          <width>100</width>
+          <header>Country</header>
+          <constraintValueType>1</constraintValueType>
+          <factField>registeredCountry</factField>
+          <fieldType>String</fieldType>
+          <operator>in</operator>
+          <parameters/>
+          <binding></binding>
+        </condition-column52>
       </conditions>
       <window>
         <parameters/>
