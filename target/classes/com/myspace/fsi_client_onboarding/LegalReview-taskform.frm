@@ -1,1 +1,0 @@
-{"id":"758b860c-2049-489b-a298-ffcd4c990ebe","name":"LegalReview-taskform.frm","model":{"taskName":"LegalReview","processId":"FSI_Client_Onboarding.ClientOnboarding","properties":[],"formModelType":"org.kie.workbench.common.forms.jbpm.model.authoring.task.TaskFormModel"},"fields":[],"layoutTemplate":{"version":2,"style":"FLUID","layoutProperties":{},"rows":[]}}
