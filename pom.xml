@@ -8,13 +8,7 @@
   <packaging>kjar</packaging>
   <name>FSI_Client_Onboarding</name>
   <description></description>
-  <distributionManagement>
-    <repository>
-      <id>maven-PAM</id>
-      <name>maven-PAM</name>
-      <url>http://nexus-nexus.apps.florida-696e.openshiftworkshop.com/repository/maven-PAM/</url>
-    </repository>
-  </distributionManagement>
+ 
   <dependencies>
     <dependency>
       <groupId>com.thoughtworks.xstream</groupId>
